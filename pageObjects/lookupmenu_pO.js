@@ -10,11 +10,11 @@ module.exports = {
     elements: {
         mmpageTitle     : {selector: '(//h1[contains(text(), "Look Up a ZIP Code")])[1]',
                             locateStrategy: 'xpath'},     // "Look Up a ZIP Code" Page Title
-        byaddressBtnmm  : {selector: '//a[@title="byaddress" and role="button"]',
+        mmbyaddressBtn  : {selector: '//a[@title="byaddress" and role="button"]',
                             locateStrategy: 'xpath'},     // Look Up "ZIP by Address" button
-        citybyzipBtnmm  : {selector: '//a[@data-location="citybyzipcode" and role="button"]',
+        mmcitybyzipBtn  : {selector: '//a[@data-location="citybyzipcode" and role="button"]',
                             locateStrategy: 'xpath'},     // Look Up "City by ZIP Code" button
-        zipbycitystateBtnmm : {selector: '//a[@data-location="bycitystate" and role="button"]',
+        mmzipbycitystateBtn : {selector: '//a[@data-location="bycitystate" and role="button"]',
                             locateStrategy: 'xpath'},     // Look Up ZIP by City/State" button
                 }
 }
