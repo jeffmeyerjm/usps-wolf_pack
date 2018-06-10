@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="signInTest"
+    errors="1" failures="0" hostname="" id="" package="signInTest" skipped="0"
+    tests="1" time="0.009000" timestamp="Fri, 08 Jun 2018 20:33:21 GMT">
+  
+    <testcase name="Navigate to sign-in page and Sign-in" classname="signInTest" time="0.009000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Sign In Test / Navigate to sign-in page and Sign-in]:
+
+  ReferenceError: verify is not defined
+    at Object.Navigate to sign-in page and Sign-in (/Users/jeffmeyer/Documents/Projects/usps/tests/signInTest.js:24:13)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

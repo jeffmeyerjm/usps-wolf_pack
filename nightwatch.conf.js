@@ -29,7 +29,7 @@ module.exports = {
         }
       },
   
-      firefox : {
+      'firefox' : {
         "desiredCapabilities": {
           "browserName": "firefox",
           "marionette": true
