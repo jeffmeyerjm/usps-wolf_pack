@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="Tracktest"
+    errors="0" failures="0" hostname="" id="" package="Tracktest" skipped="0"
+    tests="2" time="11.76" timestamp="Sun, 10 Jun 2018 02:09:25 GMT">
+  
+    <testcase name="Single Valid Tracking ID" classname="Tracktest" time="9.417" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Multiple Valid Tracking ID" classname="Tracktest" time="2.340" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

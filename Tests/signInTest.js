@@ -1,3 +1,4 @@
+var editSignedInFunc = require('../Functions/editSignedInFunc')
 var signedInFunc = require('../Functions/signedInFunc')
 var signIn = {}
 
@@ -17,6 +18,21 @@ module.exports = {
     'Sign-in to Account from Homepage': browser => {
         signedInFunc(browser.page.signIn())
         browser.end()
+   
+    },
+    'Sign-in using excess characters' : browser => {
+            editSignedInFunc(signIn, 'jeffsoftqaihopethisthinglandsmeajobcomeonuspsplease', '')
+            signIn
+            .verify.value( '@usernameInput', 'jeffsoftqaihopethisthinglandsmeajobcomeonuspspleas' , 'Limit of 50 Characters Reached')
+   
+   
+   
+   
+   
+   
+   
+   
+   
     },
     'Sign out of Account by MOUSING and click Sign out': browser => {
         signedInFunc(browser.page.signIn())
