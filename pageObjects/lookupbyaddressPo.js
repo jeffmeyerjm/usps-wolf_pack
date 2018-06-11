@@ -18,7 +18,7 @@ module.exports = {
         stateInputba    :  'select[id="tState"]',       // State  (dropdown input field)
         findBtnba       :  'a[id="zip-by-address"]',    // FIND button
         searchAnewba    :  'a[id="search-address-again"]', // Search again from scratch button
-        editSearchba    :  {selector: '//a[@data-location="byaddress" and role="button"]',
+        editSearchba    :  {selector: '(//a[contains(text(), "Edit and Search Again")])[1]',
                             locateStrategy: 'xpath'},   // Edit search and search again
         zipResultba     :  {selector: '//div[@class="zipcode-result-address"]/p/strong',
                             locateStrategy: 'xpath'},   // 9-digit ZIP code found
@@ -29,6 +29,8 @@ module.exports = {
         errorMsg3ba     :  {selector: '(//div[contains(text(), "Please select a state.")])',
                                 locateStrategy: 'xpath'},
         errorMsg4ba     :  {selector: '(//div[contains(text(), "Unfortunately, this information wasn")])[3]',
+                                locateStrategy: 'xpath'},
+        errorMsg5ba     :  {selector: '(//div[contains(text(), "Unfortunately, this information wasn")])[2]',
                                 locateStrategy: 'xpath'},
     }
 }

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="7">
+
+  <testsuite name="zipbyAddress"
+    errors="1" failures="0" hostname="" id="" package="zipbyAddress" skipped="6"
+    tests="7" time="0.01700" timestamp="Mon, 11 Jun 2018 23:11:40 GMT">
+  
+    <testcase name="Test error message 1 - no address entered" classname="zipbyAddress" time="0.01700" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Zipby Address / Test error message 1 - no address entered]:
+
+  TypeError: lookupbyaddressPo.fillsearchItems is not a function
+    at Object.Test error message 1 - no address entered (/Users/joepclaessens/Documents/Projects/DevMountain/src/usps-wolf_pack/Tests/zipbyAddress.js:27:14)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Test error messages 2 &amp; 3 - no city and state entered" classname="zipbyAddress">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Test error messages 4 (under city field) - invalid address" classname="zipbyAddress">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Test error messages 5 (under street address) - invalid address" classname="zipbyAddress">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Find a ZIP Code (valid address)" classname="zipbyAddress">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Find a ZIP Code and return to Search page to edit Search" classname="zipbyAddress">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Find a ZIP Code and return to Search page to search anew" classname="zipbyAddress">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
