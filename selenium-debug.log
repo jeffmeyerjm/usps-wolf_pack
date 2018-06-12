@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 16:23:57.846 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.12.0', revision: '7c6e0b3'
 16:23:57.850 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4445
 2018-06-11 16:23:58.040:INFO::main: Logging initialized @537ms to org.seleniumhq.jetty9.util.log.StdErrLog
@@ -127,3 +128,16 @@ http://requirejs.org/docs/errors.html#scripterror
 JavaScript error: https://www.usps.com/global-elements/footer/script/jquery-3.2.1.js, line 2: NS_ERROR_NOT_INITIALIZED: 
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
 16:24:47.313 INFO [ActiveSessions$1.onStop] - Removing session 1d48b599-6301-f84e-9704-3b72cdbae555 (org.openqa.selenium.firefox.GeckoDriverService)
+=======
+17:28:26.401 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.12.0', revision: '7c6e0b3'
+17:28:26.410 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4445
+2018-06-11 17:28:26.864:INFO::main: Logging initialized @1152ms to org.seleniumhq.jetty9.util.log.StdErrLog
+17:28:27.264 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
+17:28:27.967 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {acceptSslCerts: true, browserName: chrome, javascriptEnabled: true, name: Zip Test}
+17:28:27.969 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 3100
+Only local connections are allowed.
+17:28:30.406 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+17:28:31.270 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 531f73dcf84f48ea94a50d94d36adbd4 (org.openqa.selenium.chrome.ChromeDriverService)
+17:28:37.598 INFO [ActiveSessions$1.onStop] - Removing session 531f73dcf84f48ea94a50d94d36adbd4 (org.openqa.selenium.chrome.ChromeDriverService)
+>>>>>>> fe0ee79b65fbac2370971180c325b36b1f4cb470
