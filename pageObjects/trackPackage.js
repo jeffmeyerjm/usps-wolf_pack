@@ -23,7 +23,7 @@ module.exports = {
             locateStrategy: 'xpath'
         },
         textResults1 : {
-            selector: '//strong[contains(text(), "Label Created, not yet in system")]',
+            selector: '//h2/strong',
             locateStrategy: 'xpath'
         },
        

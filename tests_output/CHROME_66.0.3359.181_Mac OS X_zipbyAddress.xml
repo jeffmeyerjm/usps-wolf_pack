@@ -5,9 +5,9 @@
 
   <testsuite name="zipbyAddress"
     errors="0" failures="0" hostname="" id="" package="zipbyAddress" skipped="0"
-    tests="7" time="33.62" timestamp="Mon, 11 Jun 2018 22:25:07 GMT">
+    tests="7" time="16.24" timestamp="Tue, 12 Jun 2018 16:10:32 GMT">
   
-    <testcase name="Test error message 1 - no address entered" classname="zipbyAddress" time="8.520" assertions="6">
+    <testcase name="Test error message 1 - no address entered" classname="zipbyAddress" time="4.163" assertions="6">
 
     
 
@@ -22,56 +22,7 @@
     
     </testcase>
   
-    <testcase name="Test error messages 2 &amp; 3 - no city and state entered" classname="zipbyAddress" time="3.357" assertions="8">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Test error messages 4 (under city field) - invalid address" classname="zipbyAddress" time="3.762" assertions="6">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Test error messages 5 (under street address) - invalid address" classname="zipbyAddress" time="4.126" assertions="6">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Find a ZIP Code (valid address)" classname="zipbyAddress" time="4.414" assertions="8">
+    <testcase name="Test error messages 2 &amp; 3 - no city and state entered" classname="zipbyAddress" time="1.569" assertions="8">
 
     
 
@@ -90,7 +41,56 @@
     
     </testcase>
   
-    <testcase name="Find a ZIP Code and return to Search page to edit Search" classname="zipbyAddress" time="4.902" assertions="12">
+    <testcase name="Test error messages 4 (under city field) - invalid address" classname="zipbyAddress" time="2.021" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test error messages 5 (under street address) - invalid address" classname="zipbyAddress" time="2.115" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find a ZIP Code (valid address)" classname="zipbyAddress" time="2.014" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Find a ZIP Code and return to Search page to edit Search" classname="zipbyAddress" time="2.307" assertions="12">
 
     
 
@@ -117,7 +117,7 @@
     
     </testcase>
   
-    <testcase name="Find a ZIP Code and return to Search page to search anew" classname="zipbyAddress" time="4.543" assertions="11">
+    <testcase name="Find a ZIP Code and return to Search page to search anew" classname="zipbyAddress" time="2.048" assertions="11">
 
     
 

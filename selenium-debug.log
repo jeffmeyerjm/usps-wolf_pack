@@ -1,19 +1,18 @@
-<<<<<<< HEAD
-16:23:57.846 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.12.0', revision: '7c6e0b3'
-16:23:57.850 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4445
-2018-06-11 16:23:58.040:INFO::main: Logging initialized @537ms to org.seleniumhq.jetty9.util.log.StdErrLog
-16:23:58.223 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
-16:23:58.565 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Tracktest}
-16:23:58.567 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1528755838615	geckodriver	INFO	geckodriver 0.20.1
-1528755838624	geckodriver	INFO	Listening on 127.0.0.1:44243
-1528755838907	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/nx/324qgd1s3w7f_wxw38n1jc700000gr/T/rust_mozprofile.9okYyI36y8kQ"
-2018-06-11 16:24:00.186 plugin-container[24032:944560] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8743, name = 'com.apple.tsm.portname'
+10:11:03.898 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.12.0', revision: '7c6e0b3'
+10:11:03.901 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4445
+2018-06-12 10:11:04.076:INFO::main: Logging initialized @501ms to org.seleniumhq.jetty9.util.log.StdErrLog
+10:11:04.249 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
+10:11:04.575 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Tracktest}
+10:11:04.577 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1528819864622	geckodriver	INFO	geckodriver 0.20.1
+1528819864631	geckodriver	INFO	Listening on 127.0.0.1:20802
+1528819864919	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/nx/324qgd1s3w7f_wxw38n1jc700000gr/T/rust_mozprofile.36xzkxYfyhXT"
+2018-06-12 10:11:06.114 plugin-container[25870:1005878] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8743, name = 'com.apple.tsm.portname'
 See /usr/include/servers/bootstrap_defs.h for the error codes.
-1528755840623	Marionette	INFO	Listening on port 54911
-16:24:00.726 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-16:24:00.767 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 5106addf-7aa4-8344-a57c-305f1a67bd74 (org.openqa.selenium.firefox.GeckoDriverService)
-2018-06-11 16:24:01.316 plugin-container[24033:944641] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c37, name = 'com.apple.tsm.portname'
+1528819866550	Marionette	INFO	Listening on port 55784
+10:11:06.631 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+10:11:06.678 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session c3285978-c852-c744-96eb-b3de1ed027c3 (org.openqa.selenium.firefox.GeckoDriverService)
+2018-06-12 10:11:07.119 plugin-container[25872:1005964] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8743, name = 'com.apple.tsm.portname'
 See /usr/include/servers/bootstrap_defs.h for the error codes.
 JavaScript warning: https://tools.usps.com/go/pages/common/quicktools-api.jsp, line 49: unreachable code after return statement
 JavaScript warning: https://tools.usps.com/go/pages/common/quicktools-api.jsp, line 49: unreachable code after return statement
@@ -30,114 +29,56 @@ JavaScript warning: https://tools.usps.com/go/pages/common/quicktools-api.jsp, l
 JavaScript warning: https://tools.usps.com/go/pages/common/quicktools-api.jsp, line 49: unreachable code after return statement
 JavaScript error: https://tools.usps.com/go/TrackConfirmAction_input, line 1: TypeError: FSecommerce is undefined
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-16:24:13.727 INFO [ActiveSessions$1.onStop] - Removing session 5106addf-7aa4-8344-a57c-305f1a67bd74 (org.openqa.selenium.firefox.GeckoDriverService)
-16:24:13.751 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Sign In Test}
-16:24:13.751 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1528755853772	geckodriver	INFO	geckodriver 0.20.1
-1528755853779	geckodriver	INFO	Listening on 127.0.0.1:13629
-1528755853798	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/nx/324qgd1s3w7f_wxw38n1jc700000gr/T/rust_mozprofile.OxeM8aohyXDx"
-2018-06-11 16:24:14.986 plugin-container[24038:944896] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a3f, name = 'com.apple.tsm.portname'
+10:11:23.993 INFO [ActiveSessions$1.onStop] - Removing session c3285978-c852-c744-96eb-b3de1ed027c3 (org.openqa.selenium.firefox.GeckoDriverService)
+10:11:24.019 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Sign In Test}
+10:11:24.020 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1528819884036	geckodriver	INFO	geckodriver 0.20.1
+1528819884044	geckodriver	INFO	Listening on 127.0.0.1:27998
+1528819884060	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/nx/324qgd1s3w7f_wxw38n1jc700000gr/T/rust_mozprofile.j5kr0WocE3z6"
+2018-06-12 10:11:25.325 plugin-container[25877:1006242] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873f, name = 'com.apple.tsm.portname'
 See /usr/include/servers/bootstrap_defs.h for the error codes.
-1528755855412	Marionette	INFO	Listening on port 55196
-16:24:15.512 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-16:24:15.519 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 804e5ab3-069d-bd47-97f7-ddddcf7d32c2 (org.openqa.selenium.firefox.GeckoDriverService)
-2018-06-11 16:24:16.439 plugin-container[24039:944985] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c3f, name = 'com.apple.tsm.portname'
+1528819885851	Marionette	INFO	Listening on port 56095
+10:11:25.975 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+10:11:25.979 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 44a7bf1d-424c-e74b-8702-61b7c440b79f (org.openqa.selenium.firefox.GeckoDriverService)
+2018-06-12 10:11:26.431 plugin-container[25880:1006361] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x6d43, name = 'com.apple.tsm.portname'
 See /usr/include/servers/bootstrap_defs.h for the error codes.
-JavaScript error: https://www.usps.com/global-elements/lib/script/requirejs/require.js, line 8: Error: Script error for: require-jquery
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://www.usps.com/global-elements/lib/script/requirejs/require.js, line 8: Error: Script error for: helpers
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://www.usps.com/global-elements/lib/script/requirejs/require.js, line 8: Error: Script error for: search-fe
-http://requirejs.org/docs/errors.html#scripterror
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AF,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AF,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AF,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AF,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AF,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AF,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x2C00AF,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-16:24:20.858 INFO [ActiveSessions$1.onStop] - Removing session 804e5ab3-069d-bd47-97f7-ddddcf7d32c2 (org.openqa.selenium.firefox.GeckoDriverService)
-16:24:20.875 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Sign In Test}
-16:24:20.876 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
-1528755860887	geckodriver	INFO	geckodriver 0.20.1
-1528755860898	geckodriver	INFO	Listening on 127.0.0.1:24340
-1528755860917	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/nx/324qgd1s3w7f_wxw38n1jc700000gr/T/rust_mozprofile.lp1cmYTUg5sr"
-2018-06-11 16:24:22.099 plugin-container[24043:945164] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a07, name = 'com.apple.tsm.portname'
+10:11:32.814 INFO [ActiveSessions$1.onStop] - Removing session 44a7bf1d-424c-e74b-8702-61b7c440b79f (org.openqa.selenium.firefox.GeckoDriverService)
+10:11:32.832 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Sign In Test}
+10:11:32.832 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1528819892850	geckodriver	INFO	geckodriver 0.20.1
+1528819892858	geckodriver	INFO	Listening on 127.0.0.1:37636
+1528819892875	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/nx/324qgd1s3w7f_wxw38n1jc700000gr/T/rust_mozprofile.PgQKX86ARrKJ"
+2018-06-12 10:11:34.080 plugin-container[25884:1006580] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b43, name = 'com.apple.tsm.portname'
 See /usr/include/servers/bootstrap_defs.h for the error codes.
-1528755862549	Marionette	INFO	Listening on port 55397
-16:24:22.620 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
-16:24:22.626 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 1d48b599-6301-f84e-9704-3b72cdbae555 (org.openqa.selenium.firefox.GeckoDriverService)
-2018-06-11 16:24:23.506 plugin-container[24044:945244] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7647, name = 'com.apple.tsm.portname'
+1528819894496	Marionette	INFO	Listening on port 56322
+10:11:34.593 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+10:11:34.600 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 017f0c10-d027-5944-b35f-337d2efe37b0 (org.openqa.selenium.firefox.GeckoDriverService)
+2018-06-12 10:11:35.199 plugin-container[25885:1006654] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8543, name = 'com.apple.tsm.portname'
 See /usr/include/servers/bootstrap_defs.h for the error codes.
-JavaScript error: https://www.usps.com/global-elements/lib/script/requirejs/require.js, line 8: Error: Script error for: jquery
-http://requirejs.org/docs/errors.html#scripterror
-JavaScript error: https://www.usps.com/global-elements/footer/script/jquery-3.2.1.js, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://gateway.foresee.com/code/19.5.0/fs.frame.js, line 8: TypeError: e is undefined
+1528819923875	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 25884, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 25884, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-16:24:47.313 INFO [ActiveSessions$1.onStop] - Removing session 1d48b599-6301-f84e-9704-3b72cdbae555 (org.openqa.selenium.firefox.GeckoDriverService)
-=======
-17:28:26.401 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.12.0', revision: '7c6e0b3'
-17:28:26.410 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4445
-2018-06-11 17:28:26.864:INFO::main: Logging initialized @1152ms to org.seleniumhq.jetty9.util.log.StdErrLog
-17:28:27.264 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
-17:28:27.967 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {acceptSslCerts: true, browserName: chrome, javascriptEnabled: true, name: Zip Test}
-17:28:27.969 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
-Starting ChromeDriver 2.38.552518 (183d19265345f54ce39cbb94cf81ba5f15905011) on port 3100
-Only local connections are allowed.
-17:28:30.406 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
-17:28:31.270 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 531f73dcf84f48ea94a50d94d36adbd4 (org.openqa.selenium.chrome.ChromeDriverService)
-17:28:37.598 INFO [ActiveSessions$1.onStop] - Removing session 531f73dcf84f48ea94a50d94d36adbd4 (org.openqa.selenium.chrome.ChromeDriverService)
->>>>>>> fe0ee79b65fbac2370971180c325b36b1f4cb470
+10:12:04.335 INFO [ActiveSessions$1.onStop] - Removing session 017f0c10-d027-5944-b35f-337d2efe37b0 (org.openqa.selenium.firefox.GeckoDriverService)
+10:12:04.351 INFO [ActiveSessionFactory.apply] - Capabilities are: Capabilities {acceptSslCerts: true, browserName: firefox, javascriptEnabled: true, marionette: true, name: Zipby Address}
+10:12:04.352 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1528819924365	geckodriver	INFO	geckodriver 0.20.1
+1528819924374	geckodriver	INFO	Listening on 127.0.0.1:42665
+1528819924393	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/nx/324qgd1s3w7f_wxw38n1jc700000gr/T/rust_mozprofile.DekIrUmrq0t7"
+2018-06-12 10:12:05.599 plugin-container[25891:1007244] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528819926040	Marionette	INFO	Listening on port 56750
+10:12:06.131 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+10:12:06.135 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session e9ed07d8-7216-7d44-b1b1-abe9c2718399 (org.openqa.selenium.firefox.GeckoDriverService)
+2018-06-12 10:12:06.697 plugin-container[25892:1007327] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7443, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://tools.usps.com/go/pages/common/quicktools-api.jsp, line 49: unreachable code after return statement
+JavaScript warning: https://tools.usps.com/go/pages/common/quicktools-api.jsp, line 49: unreachable code after return statement
+JavaScript warning: https://tools.usps.com/go/pages/common/quicktools-api.jsp, line 49: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+10:12:14.913 INFO [ActiveSessions$1.onStop] - Removing session e9ed07d8-7216-7d44-b1b1-abe9c2718399 (org.openqa.selenium.firefox.GeckoDriverService)

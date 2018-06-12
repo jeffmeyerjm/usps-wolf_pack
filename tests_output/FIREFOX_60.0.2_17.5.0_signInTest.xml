@@ -5,9 +5,9 @@
 
   <testsuite name="signInTest"
     errors="0" failures="0" hostname="" id="" package="signInTest" skipped="0"
-    tests="4" time="32.98" timestamp="Mon, 11 Jun 2018 22:24:13 GMT">
+    tests="4" time="39.73" timestamp="Tue, 12 Jun 2018 16:11:23 GMT">
   
-    <testcase name="Sign-in to Account from Homepage" classname="signInTest" time="7.126" assertions="4">
+    <testcase name="Sign-in to Account from Homepage" classname="signInTest" time="8.816" assertions="4">
 
     
 
@@ -18,7 +18,7 @@
     
     </testcase>
   
-    <testcase name="Sign-in using excess characters" classname="signInTest" time="5.164" assertions="3">
+    <testcase name="Sign-in using excess characters" classname="signInTest" time="7.890" assertions="3">
 
     
 
@@ -27,7 +27,7 @@
     
     </testcase>
   
-    <testcase name="Sign out of Account by MOUSING and click Sign out" classname="signInTest" time="10.69" assertions="6">
+    <testcase name="Sign out of Account by MOUSING and click Sign out" classname="signInTest" time="11.68" assertions="6">
 
     
 
@@ -42,7 +42,7 @@
     
     </testcase>
   
-    <testcase name="Sign out of Account by clicking Hi, Jeff" classname="signInTest" time="10.00" assertions="6">
+    <testcase name="Sign out of Account by clicking Hi, Jeff" classname="signInTest" time="11.35" assertions="6">
 
     
 

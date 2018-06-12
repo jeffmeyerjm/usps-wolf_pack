@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="7">
+
+  <testsuite name="zipbyAddress"
+    errors="0" failures="1" hostname="" id="" package="zipbyAddress" skipped="6"
+    tests="7" time="10.57" timestamp="Tue, 12 Jun 2018 16:12:04 GMT">
+  
+    <testcase name="Test error message 1 - no address entered" classname="zipbyAddress" time="10.57" assertions="4">
+
+    
+
+    
+
+      <failure message="Waiting 5 secs for error msg">    at Object.Test error message 1 - no address entered (/Users/jeffmeyer/Documents/Projects/usps/Tests/zipbyAddress.js:30:14)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Test error messages 2 &amp; 3 - no city and state entered" classname="zipbyAddress">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Test error messages 4 (under city field) - invalid address" classname="zipbyAddress">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Test error messages 5 (under street address) - invalid address" classname="zipbyAddress">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Find a ZIP Code (valid address)" classname="zipbyAddress">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Find a ZIP Code and return to Search page to edit Search" classname="zipbyAddress">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Find a ZIP Code and return to Search page to search anew" classname="zipbyAddress">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
