@@ -5,9 +5,12 @@ June 13,2018
 Quality Assurance Group Capstone Project
 
 
-Team:			    Wolf Pack
-Team Lead: 		Jeff Meyer
+Team:	        Wolf Pack
+
+Team Lead: 	Jeff Meyer
+
 Team Member: 	Joep Claessens
+
 Team Member: 	Sunny Somlita
 
 
